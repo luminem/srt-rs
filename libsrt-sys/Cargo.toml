@@ -11,6 +11,9 @@ repository = "https://github.com/nthieu173/srt-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[dev-dependencies]
+os_socketaddr = "0.1.1"
+
 [build-dependencies]
 cmake = "0.1"
 bindgen = "0.56"
